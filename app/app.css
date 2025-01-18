@@ -1,0 +1,96 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.page {
+    background-color: #000000;
+}
+
+.action-bar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.home-panel {
+    padding: 20;
+    spacing: 20;
+}
+
+.garuda-logo {
+    height: 150;
+    margin-bottom: 20;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 32;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 24;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 28;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30;
+    margin-bottom: 20;
+}
+
+.purpose-grid {
+    margin-top: 20;
+}
+
+.purpose-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10;
+    margin: 10;
+    padding: 15;
+}
+
+.card-image {
+    height: 200;
+    border-radius: 10;
+    stretch: aspectFill;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 20;
+    font-weight: bold;
+    margin-top: 15;
+    margin-bottom: 10;
+}
+
+.card-description {
+    color: #ffffff;
+    opacity: 0.8;
+    text-wrap: true;
+}
+
+.university-grid {
+    justify-content: center;
+    margin-top: 20;
+}
+
+.university-logo {
+    height: 60;
+    margin: 10;
+    opacity: 0.8;
+}
+
+.about-text {
+    color: #ffffff;
+    font-size: 16;
+    text-align: center;
+    opacity: 0.9;
+    padding: 20;
+    text-wrap: true;
+}

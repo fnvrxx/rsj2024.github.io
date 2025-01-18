@@ -1,0 +1,51 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <ActionBar title="RSJ" class="action-bar">
+    </ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <!-- Hero Section -->
+            <Image src="~/images/garuda.png" class="garuda-logo"/>
+            <Label text="REMAJA SUKA JOGGING" class="title"/>
+            <Label text="INTRODUCTION CAMPUS" class="subtitle"/>
+
+            <!-- Purpose Section -->
+            <Label text="PURPOSE" class="section-title"/>
+            <GridLayout rows="auto, auto, auto" columns="*" class="purpose-grid">
+                <!-- Database Alumni -->
+                <StackLayout row="0" class="purpose-card">
+                    <Image src="~/images/students.jpg" class="card-image"/>
+                    <Label text="DATABASE ALUMNI" class="card-title"/>
+                    <Label text="Comprehensive database of our successful alumni" class="card-description"/>
+                </StackLayout>
+
+                <!-- Kumpulan Soal -->
+                <StackLayout row="1" class="purpose-card">
+                    <Image src="~/images/study.jpg" class="card-image"/>
+                    <Label text="KUMPULAN SOAL" class="card-title"/>
+                    <Label text="Extensive collection of study materials" class="card-description"/>
+                </StackLayout>
+
+                <!-- Motivasi -->
+                <StackLayout row="2" class="purpose-card">
+                    <Image src="~/images/motivation.jpg" class="card-image"/>
+                    <Label text="MOTIVASI" class="card-title"/>
+                    <Label text="Inspiring content to keep you motivated" class="card-description"/>
+                </StackLayout>
+            </GridLayout>
+
+            <!-- Universities Section -->
+            <Label text="GO TO UNIVERSITAS" class="section-title"/>
+            <WrapLayout class="university-grid">
+                <Image src="~/images/ui-logo.png" class="university-logo"/>
+                <Image src="~/images/ugm-logo.png" class="university-logo"/>
+                <Image src="~/images/itb-logo.png" class="university-logo"/>
+                <Image src="~/images/ipb-logo.png" class="university-logo"/>
+            </WrapLayout>
+
+            <!-- About Section -->
+            <Label text="About" class="section-title"/>
+            <Label text="We are passionate about helping students achieve their dreams of higher education through sports excellence. Our platform provides comprehensive support and guidance for young athletes." textWrap="true" class="about-text"/>
+        </StackLayout>
+    </ScrollView>
+</Page>
